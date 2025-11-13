@@ -18,7 +18,7 @@ mongoose
 
 const app = express();
 app.use(express.json()); 
-const port = 3000;
+const port = 3002;
 app.use('/api/user',user)
 app.post('/api/login',userLogin.login)
 app.listen(port, () => {
